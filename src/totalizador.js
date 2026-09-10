@@ -33,6 +33,7 @@ export function obtenerTasaImpuesto(estado) {
   const tasas = {
     UT: 6.65,
     NV: 8,
+    TX: 6.25,
   };
   return tasas[estado];
 }
