@@ -8,6 +8,9 @@ function calcularPrecioNeto(cantidad, precio) {
   if (Number(cantidad) === 0) {
     throw new Error("La cantidad debe ser mayor a cero");
   }
+  if (String(precio).trim() === "" || !Number.isFinite(Number(precio))) {
+    throw new Error("El precio debe ser numerico");
+  }
   if (precio < 0) {
     throw new Error("El precio no puede ser negativo");
   }

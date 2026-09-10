@@ -494,9 +494,39 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0cc48c922ce5bad613c6d91ba687cb2b280839a4",
     "commitName": "Validar cantidad no numerica",
     "commitTimestamp": 1789013502823,
     "testId": 21
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789013825609,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789014274418,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789014290358,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Valida el precio no numerico con TDD",
+    "commitTimestamp": 1789014428905,
+    "testId": 22
   }
 ]

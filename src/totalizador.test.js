@@ -111,4 +111,10 @@ describe("Totalizador de venta", () => {
       expect(() => calcularPrecioNeto(cantidad, 3)).toThrow("La cantidad debe ser numerica");
     }
   });
+
+  it("deberia informar cuando el precio no es numerico", () => {
+    for (const precio of ["abc", "3abc", "", " ", NaN, Infinity]) {
+      expect(() => calcularPrecioNeto(20, precio)).toThrow("El precio debe ser numerico");
+    }
+  });
 });
