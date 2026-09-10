@@ -808,9 +808,31 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd6c5363c4f70cf65bfae537e3a57f507570cca7",
     "commitName": "Aplica descuento de envio por tipo de cliente",
     "commitTimestamp": 1789016889245,
     "testId": 36
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1789016921289,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1789016934570,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Calcula beneficios especiales por cliente y categoria",
+    "commitTimestamp": 1789017000703,
+    "testId": 37
   }
 ]

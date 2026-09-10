@@ -106,4 +106,10 @@ export function calcularCostoEnvioConDescuento(costoEnvio, tipoCliente) {
   return costoEnvio * (1 - obtenerPorcentajeDescuentoEnvio(tipoCliente) / 100);
 }
 
+export function calcularBeneficioEspecial(precioNeto, categoria, tipoCliente) {
+  if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) return 100;
+  if (tipoCliente === "Especial" && categoria === "Electrónicos" && precioNeto > 7000) return 200;
+  return 0;
+}
+
 export default calcularPrecioNeto;

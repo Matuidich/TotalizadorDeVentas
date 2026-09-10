@@ -11,6 +11,7 @@ import calcularPrecioNeto, {
   calcularCostoEnvioTotal,
   obtenerPorcentajeDescuentoEnvio,
   calcularCostoEnvioConDescuento,
+  calcularBeneficioEspecial,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -163,5 +164,13 @@ describe("Totalizador de venta", () => {
     expect(obtenerPorcentajeDescuentoEnvio("Antiguo Recurrente")).toEqual(1);
     expect(obtenerPorcentajeDescuentoEnvio("Especial")).toEqual(1.5);
     expect(calcularCostoEnvioConDescuento(100, "Especial")).toEqual(98.5);
+  });
+
+  it("deberia calcular beneficios especiales solo sobre limites estrictamente mayores", () => {
+    expect(calcularBeneficioEspecial(3000, "Alimentos", "Recurrente")).toEqual(0);
+    expect(calcularBeneficioEspecial(3000.01, "Alimentos", "Recurrente")).toEqual(100);
+    expect(calcularBeneficioEspecial(7000, "Electrónicos", "Especial")).toEqual(0);
+    expect(calcularBeneficioEspecial(7000.01, "Electrónicos", "Especial")).toEqual(200);
+    expect(calcularBeneficioEspecial(5000, "Electrónicos", "Especial")).toEqual(0);
   });
 });
