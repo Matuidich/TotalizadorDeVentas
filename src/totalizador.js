@@ -98,4 +98,12 @@ export function calcularCostoEnvioTotal(cantidad, peso) {
   return Number(cantidad) * calcularCostoEnvioPorUnidad(peso);
 }
 
+export function obtenerPorcentajeDescuentoEnvio(tipoCliente) {
+  return { Normal: 0, Recurrente: 0.5, "Antiguo Recurrente": 1, Especial: 1.5 }[tipoCliente] ?? 0;
+}
+
+export function calcularCostoEnvioConDescuento(costoEnvio, tipoCliente) {
+  return costoEnvio * (1 - obtenerPorcentajeDescuentoEnvio(tipoCliente) / 100);
+}
+
 export default calcularPrecioNeto;

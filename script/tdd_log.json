@@ -786,9 +786,31 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0dbf555d642d6b06c37006ec526256ebb9d18073",
     "commitName": "Agrega seleccion de tipo de cliente",
     "commitTimestamp": 1789016805593,
     "testId": 35
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 1,
+    "numTotalTests": 29,
+    "timestamp": 1789016836117,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1789016850236,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Aplica descuento de envio por tipo de cliente",
+    "commitTimestamp": 1789016889245,
+    "testId": 36
   }
 ]

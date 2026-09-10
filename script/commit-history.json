@@ -665,12 +665,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0dbf555d642d6b06c37006ec526256ebb9d18073",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T05:06:43.000Z",
       "message": "Agrega seleccion de tipo de cliente",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/0dbf555d642d6b06c37006ec526256ebb9d18073"
     },
     "stats": {
       "total": 17,
@@ -680,6 +680,25 @@
     },
     "coverage": 100,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T05:08:07.000Z",
+      "message": "Aplica descuento de envio por tipo de cliente",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

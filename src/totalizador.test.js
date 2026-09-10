@@ -9,6 +9,8 @@ import calcularPrecioNeto, {
   obtenerAjusteImpuestoCategoria,
   calcularCostoEnvioPorUnidad,
   calcularCostoEnvioTotal,
+  obtenerPorcentajeDescuentoEnvio,
+  calcularCostoEnvioConDescuento,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -153,5 +155,13 @@ describe("Totalizador de venta", () => {
   it("deberia calcular el costo total de envio multiplicando por la cantidad", () => {
     expect(calcularCostoEnvioTotal(20, 11)).toEqual(70);
     expect(calcularCostoEnvioTotal(3, 201)).toEqual(27);
+  });
+
+  it("deberia descontar el envio segun el tipo de cliente", () => {
+    expect(obtenerPorcentajeDescuentoEnvio("Normal")).toEqual(0);
+    expect(obtenerPorcentajeDescuentoEnvio("Recurrente")).toEqual(0.5);
+    expect(obtenerPorcentajeDescuentoEnvio("Antiguo Recurrente")).toEqual(1);
+    expect(obtenerPorcentajeDescuentoEnvio("Especial")).toEqual(1.5);
+    expect(calcularCostoEnvioConDescuento(100, "Especial")).toEqual(98.5);
   });
 });
