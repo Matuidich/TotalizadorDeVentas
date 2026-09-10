@@ -101,4 +101,8 @@ describe("Totalizador de venta", () => {
   it("deberia informar cuando el precio es negativo", () => {
     expect(() => calcularPrecioNeto(20, -3)).toThrow("El precio no puede ser negativo");
   });
+
+  it("deberia informar cuando el precio es cero", () => {
+    expect(() => calcularPrecioNeto(20, 0)).toThrow("El precio debe ser mayor a cero");
+  });
 });

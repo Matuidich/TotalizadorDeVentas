@@ -8,6 +8,9 @@ function calcularPrecioNeto(cantidad, precio) {
   if (precio < 0) {
     throw new Error("El precio no puede ser negativo");
   }
+  if (Number(precio) === 0) {
+    throw new Error("El precio debe ser mayor a cero");
+  }
   return cantidad * precio;
 }
 
