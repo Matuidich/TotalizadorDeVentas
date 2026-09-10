@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "18468387f4dcd9afb2872356d759ee0c1ed05c43",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T03:41:16.000Z",
       "message": "Implementar descuento del cero por ciento para compras menores a 1000",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/18468387f4dcd9afb2872356d759ee0c1ed05c43"
     },
     "stats": {
       "total": 14,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T03:43:44.000Z",
+      "message": "Implementar descuento del 3 por ciento desde 1000",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

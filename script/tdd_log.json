@@ -54,9 +54,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "18468387f4dcd9afb2872356d759ee0c1ed05c43",
     "commitName": "Implementar descuento del cero por ciento para compras menores a 1000",
     "commitTimestamp": 1789011678435,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1789011776297,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1789011793374,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar descuento del 3 por ciento desde 1000",
+    "commitTimestamp": 1789011826201,
+    "testId": 2
   }
 ]
