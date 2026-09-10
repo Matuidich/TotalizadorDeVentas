@@ -590,9 +590,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "38024b45aff8d71c3b079b343401ecb06c6c657b",
     "commitName": "Permite seleccionar estado de compra con TDD",
     "commitTimestamp": 1789015167074,
     "testId": 25
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015200711,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015229966,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Completa lista desplegable de cinco estados con TDD",
+    "commitTimestamp": 1789015279382,
+    "testId": 26
   }
 ]
