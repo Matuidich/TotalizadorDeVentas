@@ -6,6 +6,7 @@ import calcularPrecioNeto, {
   calcularImpuesto,
   calcularPrecioTotal,
   obtenerAjusteDescuentoCategoria,
+  obtenerAjusteImpuestoCategoria,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -122,5 +123,11 @@ describe("Totalizador de venta", () => {
   it("deberia aplicar dos por ciento adicional de descuento a Alimentos", () => {
     expect(obtenerAjusteDescuentoCategoria("Alimentos")).toEqual(2);
     expect(obtenerAjusteDescuentoCategoria("Varios")).toEqual(0);
+  });
+
+  it("deberia aplicar a Electronicos uno por ciento de descuento y cuatro de impuesto", () => {
+    expect(obtenerAjusteDescuentoCategoria("Electrónicos")).toEqual(1);
+    expect(obtenerAjusteImpuestoCategoria("Electrónicos")).toEqual(4);
+    expect(obtenerAjusteImpuestoCategoria("Varios")).toEqual(0);
   });
 });

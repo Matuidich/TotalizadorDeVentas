@@ -706,9 +706,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "37f3946f003457b4e6f9dc1bdd3355136f9bfb04",
     "commitName": "Agrega descuento adicional para Alimentos",
     "commitTimestamp": 1789016309986,
     "testId": 31
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1789016337997,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1789016351580,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Agrega ajustes de Electronicos",
+    "commitTimestamp": 1789016419662,
+    "testId": 32
   }
 ]

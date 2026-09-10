@@ -70,7 +70,13 @@ export function calcularPrecioTotal(precioNeto, estado) {
 }
 
 export function obtenerAjusteDescuentoCategoria(categoria) {
-  return categoria === "Alimentos" ? 2 : 0;
+  if (categoria === "Alimentos") return 2;
+  if (categoria === "Electrónicos") return 1;
+  return 0;
+}
+
+export function obtenerAjusteImpuestoCategoria(categoria) {
+  return categoria === "Electrónicos" ? 4 : 0;
 }
 
 export default calcularPrecioNeto;
