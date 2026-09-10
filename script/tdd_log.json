@@ -524,9 +524,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6fe02c2222fa267f47d6691d8dc8cad1a6c02da4",
     "commitName": "Valida el precio no numerico con TDD",
     "commitTimestamp": 1789014428905,
     "testId": 22
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789014617565,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789014715247,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Permite ingresar cantidad en el totalizador con TDD",
+    "commitTimestamp": 1789014877623,
+    "testId": 23
   }
 ]

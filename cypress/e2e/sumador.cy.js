@@ -1,9 +1,7 @@
-describe("Sumador", () => {
-  it("Shows the amount of the addition to the user", () => {
+describe("Totalizador de venta", () => {
+  it("permite ingresar la cantidad", () => {
     cy.visit("/");
-    cy.get("#primer-numero").type(4);
-    cy.get("#segundo-numero").type(5);
-    cy.get("#sumar-button").click();
-    cy.get("#resultado-div").should("contain", "9");
+    cy.get('label[for="cantidad"]').should("contain", "Cantidad");
+    cy.get("#cantidad").type("20").should("have.value", "20");
   });
 });

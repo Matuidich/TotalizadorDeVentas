@@ -418,17 +418,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6fe02c2222fa267f47d6691d8dc8cad1a6c02da4",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:27:07.000Z",
       "message": "Valida el precio no numerico con TDD",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/6fe02c2222fa267f47d6691d8dc8cad1a6c02da4"
     },
     "stats": {
       "total": 9,
       "additions": 9,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:34:35.000Z",
+      "message": "Permite ingresar cantidad en el totalizador con TDD",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 12,
+      "deletions": 31,
       "date": "2026-09-10"
     },
     "coverage": 100,
