@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "398681f18030056c54c75d4861fe528db216c1ee",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T05:00:17.000Z",
       "message": "Agrega ajustes de Electronicos",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/398681f18030056c54c75d4861fe528db216c1ee"
     },
     "stats": {
       "total": 15,
@@ -623,6 +623,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T05:02:36.000Z",
+      "message": "Calcula envio por peso volumetrico y valida datos",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 33,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -7,6 +7,7 @@ import calcularPrecioNeto, {
   calcularPrecioTotal,
   obtenerAjusteDescuentoCategoria,
   obtenerAjusteImpuestoCategoria,
+  calcularCostoEnvioPorUnidad,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -129,5 +130,22 @@ describe("Totalizador de venta", () => {
     expect(obtenerAjusteDescuentoCategoria("Electrónicos")).toEqual(1);
     expect(obtenerAjusteImpuestoCategoria("Electrónicos")).toEqual(4);
     expect(obtenerAjusteImpuestoCategoria("Varios")).toEqual(0);
+  });
+
+  it("deberia calcular envio por unidad segun peso volumetrico y validar el peso", () => {
+    expect(calcularCostoEnvioPorUnidad(10)).toEqual(0);
+    expect(calcularCostoEnvioPorUnidad(11)).toEqual(3.5);
+    expect(calcularCostoEnvioPorUnidad(20)).toEqual(3.5);
+    expect(calcularCostoEnvioPorUnidad(21)).toEqual(5);
+    expect(calcularCostoEnvioPorUnidad(40)).toEqual(5);
+    expect(calcularCostoEnvioPorUnidad(41)).toEqual(6);
+    expect(calcularCostoEnvioPorUnidad(80)).toEqual(6);
+    expect(calcularCostoEnvioPorUnidad(81)).toEqual(6.5);
+    expect(calcularCostoEnvioPorUnidad(100)).toEqual(6.5);
+    expect(calcularCostoEnvioPorUnidad(101)).toEqual(8);
+    expect(calcularCostoEnvioPorUnidad(200)).toEqual(8);
+    expect(calcularCostoEnvioPorUnidad(201)).toEqual(9);
+    expect(() => calcularCostoEnvioPorUnidad(-1)).toThrow("El peso volumetrico no puede ser negativo");
+    expect(() => calcularCostoEnvioPorUnidad("abc")).toThrow("El peso volumetrico debe ser numerico");
   });
 });

@@ -79,4 +79,19 @@ export function obtenerAjusteImpuestoCategoria(categoria) {
   return categoria === "Electrónicos" ? 4 : 0;
 }
 
+export function calcularCostoEnvioPorUnidad(peso) {
+  if (String(peso).trim() === "" || !Number.isFinite(Number(peso))) {
+    throw new Error("El peso volumetrico debe ser numerico");
+  }
+  const valor = Number(peso);
+  if (valor < 0) throw new Error("El peso volumetrico no puede ser negativo");
+  if (valor <= 10) return 0;
+  if (valor <= 20) return 3.5;
+  if (valor <= 40) return 5;
+  if (valor <= 80) return 6;
+  if (valor <= 100) return 6.5;
+  if (valor <= 200) return 8;
+  return 9;
+}
+
 export default calcularPrecioNeto;

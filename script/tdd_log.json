@@ -728,9 +728,31 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "398681f18030056c54c75d4861fe528db216c1ee",
     "commitName": "Agrega ajustes de Electronicos",
     "commitTimestamp": 1789016419662,
     "testId": 32
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1789016455262,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1789016471206,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Calcula envio por peso volumetrico y valida datos",
+    "commitTimestamp": 1789016558092,
+    "testId": 33
   }
 ]
