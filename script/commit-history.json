@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "017dbf3e58527bc5f436587c94a6ddcdfca6671f",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T03:46:36.000Z",
       "message": "Implementar descuento del 7 por ciento desde 7000",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/017dbf3e58527bc5f436587c94a6ddcdfca6671f"
     },
     "stats": {
       "total": 8,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T03:47:54.000Z",
+      "message": "Implementar descuento del 10 por ciento desde 10000",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
