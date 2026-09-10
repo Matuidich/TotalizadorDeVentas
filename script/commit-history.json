@@ -703,17 +703,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9c4fcc0d0fd6e80dab7c967e8bff066216b57bd5",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T05:09:59.000Z",
       "message": "Calcula beneficios especiales por cliente y categoria",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/9c4fcc0d0fd6e80dab7c967e8bff066216b57bd5"
     },
     "stats": {
       "total": 15,
       "additions": 15,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T05:13:47.000Z",
+      "message": "Muestra desglose completo con categorias envio y beneficios",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 74,
+      "additions": 70,
+      "deletions": 4,
       "date": "2026-09-10"
     },
     "coverage": 100,

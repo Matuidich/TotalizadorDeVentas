@@ -126,4 +126,30 @@ describe("Totalizador de venta", () => {
     cy.get("#resultado-div").should("contain", "Precio total: 20.80");
     cy.get("#error-div").should("be.empty");
   });
+  it("confirma y muestra el desglose completo de extensiones", () => {
+    cy.visit("/");
+    cy.get("#cantidad").type("20");
+    cy.get("#precio").type("400");
+    cy.get("#estado").select("CA");
+    cy.get("#categoria").select("Electrónicos");
+    cy.get("#peso-volumetrico").type("21");
+    cy.get("#tipo-cliente").select("Especial");
+    cy.get("#confirmar-button").click();
+    cy.get("#resultado-div")
+      .should("contain", "Precio neto: 8000.00")
+      .and("contain", "Descuento original (7%): 560.00")
+      .and("contain", "Ajuste descuento categoría Electrónicos (1%): 80.00")
+      .and("contain", "Descuentos totales: 640.00")
+      .and("contain", "Precio despues del descuento: 7360.00")
+      .and("contain", "Estado: CA (8.25%)")
+      .and("contain", "Categoría: Electrónicos (descuento adicional 1%, impuesto adicional 4%)")
+      .and("contain", "Impuesto total (12.25%): 901.60")
+      .and("contain", "Peso volumétrico: 21")
+      .and("contain", "Envío por unidad: 5.00")
+      .and("contain", "Envío bruto: 100.00")
+      .and("contain", "Tipo de cliente: Especial (descuento envío 1.5%)")
+      .and("contain", "Envío final: 98.50")
+      .and("contain", "Beneficio especial: 200.00")
+      .and("contain", "Total final: 8160.10");
+  });
 });
