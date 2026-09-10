@@ -84,4 +84,9 @@ describe("Totalizador de venta", () => {
     expect(calcularPrecioTotal(calcularPrecioNeto(20, 3), "TX")).toEqual(63.75);
     expect(calcularPrecioTotal(calcularPrecioNeto(20, 50), "TX")).toBeCloseTo(1030.625, 5);
   });
+
+  it("deberia informar cuando el codigo de estado es invalido", () => {
+    expect(() => obtenerTasaImpuesto("ZZ")).toThrow("Codigo de estado invalido");
+    expect(() => obtenerTasaImpuesto("toString")).toThrow("Codigo de estado invalido");
+  });
 });

@@ -362,9 +362,31 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fa635691df7c164315252d1c236f17b609e91cf4",
     "commitName": "Implementar precio total con descuento e impuesto",
     "commitTimestamp": 1789012942367,
     "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789012989299,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1789013013991,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Validar codigo de estado invalido",
+    "commitTimestamp": 1789013043767,
+    "testId": 16
   }
 ]

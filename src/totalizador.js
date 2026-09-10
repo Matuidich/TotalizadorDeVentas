@@ -37,6 +37,9 @@ export function obtenerTasaImpuesto(estado) {
     AL: 4,
     CA: 8.25,
   };
+  if (!Object.prototype.hasOwnProperty.call(tasas, estado)) {
+    throw new Error("Codigo de estado invalido");
+  }
   return tasas[estado];
 }
 
