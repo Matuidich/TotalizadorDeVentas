@@ -406,9 +406,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "99fd88e3d7adc81cff06c19b1c3c5a1f3d7be53e",
     "commitName": "Validar cantidad negativa",
     "commitTimestamp": 1789013125106,
     "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789013158495,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1789013175841,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Validar cantidad igual a cero",
+    "commitTimestamp": 1789013203225,
+    "testId": 18
   }
 ]

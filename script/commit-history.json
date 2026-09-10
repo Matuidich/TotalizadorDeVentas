@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "99fd88e3d7adc81cff06c19b1c3c5a1f3d7be53e",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:05:23.000Z",
       "message": "Validar cantidad negativa",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/99fd88e3d7adc81cff06c19b1c3c5a1f3d7be53e"
     },
     "stats": {
       "total": 7,
@@ -338,6 +338,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:06:41.000Z",
+      "message": "Validar cantidad igual a cero",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

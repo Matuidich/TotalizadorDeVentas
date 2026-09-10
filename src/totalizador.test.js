@@ -93,4 +93,8 @@ describe("Totalizador de venta", () => {
   it("deberia informar cuando la cantidad es negativa", () => {
     expect(() => calcularPrecioNeto(-1, 3)).toThrow("La cantidad no puede ser negativa");
   });
+
+  it("deberia informar cuando la cantidad es cero", () => {
+    expect(() => calcularPrecioNeto(0, 3)).toThrow("La cantidad debe ser mayor a cero");
+  });
 });
