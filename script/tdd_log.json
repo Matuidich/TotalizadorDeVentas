@@ -16,9 +16,47 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4d47b89db514d38d5770739d11601dc7b0f4f77b",
     "commitName": "Implementar calculo del precio neto",
     "commitTimestamp": 1789009495318,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1789010526471,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1789010974924,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1789011396903,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1789011416275,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar descuento del cero por ciento para compras menores a 1000",
+    "commitTimestamp": 1789011678435,
+    "testId": 1
   }
 ]

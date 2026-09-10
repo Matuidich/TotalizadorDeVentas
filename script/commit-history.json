@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "4d47b89db514d38d5770739d11601dc7b0f4f77b",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T03:04:53.000Z",
       "message": "Implementar calculo del precio neto",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/4d47b89db514d38d5770739d11601dc7b0f4f77b"
     },
     "stats": {
       "total": 53,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T03:41:16.000Z",
+      "message": "Implementar descuento del cero por ciento para compras menores a 1000",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
