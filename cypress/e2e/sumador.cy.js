@@ -12,14 +12,14 @@ describe("Totalizador de venta", () => {
   it("permite seleccionar el estado de la compra", () => {
     cy.visit("/");
     cy.get('label[for="estado"]').should("contain", "Estado");
-    cy.get("#estado").select("TX").should("have.value", "TX");
+    cy.get("#estado").should("have.value", "CA");
   });
   it("ofrece los cinco estados validos mediante una lista desplegable", () => {
     cy.visit("/");
-    cy.get("select#estado").should("have.value", "");
+    cy.get("select#estado").should("have.value", "CA");
     cy.get("#estado option").then((opciones) => {
       expect([...opciones].map((opcion) => opcion.value)).to.deep.equal([
-        "", "UT", "NV", "TX", "AL", "CA",
+        "UT", "NV", "TX", "AL", "CA",
       ]);
     });
     for (const estado of ["UT", "NV", "TX", "AL", "CA"]) {
@@ -52,7 +52,6 @@ describe("Totalizador de venta", () => {
       ["20", "abc", "TX", "El precio debe ser numerico"],
       ["20", "3abc", "TX", "El precio debe ser numerico"],
       ["20", "", "TX", "El precio debe ser numerico"],
-      ["20", "3", "", "Codigo de estado invalido"],
     ]) {
       cy.get("#cantidad").clear();
       if (cantidad) cy.get("#cantidad").type(cantidad);
@@ -84,7 +83,7 @@ describe("Totalizador de venta", () => {
     cy.get("#cancelar-button").should("contain", "Cancelar compra").click();
     cy.get("#cantidad").should("have.value", "");
     cy.get("#precio").should("have.value", "");
-    cy.get("#estado").should("have.value", "");
+    cy.get("#estado").should("have.value", "CA");
     cy.get("#resultado-div").should("be.empty");
     cy.get("#error-div").should("be.empty");
 
@@ -96,7 +95,7 @@ describe("Totalizador de venta", () => {
     cy.get("#cancelar-button").click();
     cy.get("#cantidad").should("have.value", "");
     cy.get("#precio").should("have.value", "");
-    cy.get("#estado").should("have.value", "");
+    cy.get("#estado").should("have.value", "CA");
     cy.get("#resultado-div").should("be.empty");
     cy.get("#error-div").should("be.empty");
 

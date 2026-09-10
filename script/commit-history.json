@@ -532,17 +532,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fcf79d9b1a4762a5ee65cfdf861a21cb0fdf95a3",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:47:47.000Z",
       "message": "Cancela compras y limpia el formulario con TDD",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/fcf79d9b1a4762a5ee65cfdf861a21cb0fdf95a3"
     },
     "stats": {
       "total": 39,
       "additions": 39,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:54:40.000Z",
+      "message": "Selecciona California como estado predeterminado",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 6,
+      "deletions": 8,
       "date": "2026-09-10"
     },
     "coverage": 100,

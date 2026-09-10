@@ -656,9 +656,23 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fcf79d9b1a4762a5ee65cfdf861a21cb0fdf95a3",
     "commitName": "Cancela compras y limpia el formulario con TDD",
     "commitTimestamp": 1789015669572,
     "testId": 28
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015991066,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Selecciona California como estado predeterminado",
+    "commitTimestamp": 1789016082277,
+    "testId": 29
   }
 ]
