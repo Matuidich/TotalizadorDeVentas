@@ -772,9 +772,23 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2ffeb16188c5da1e2142d0e2a1fde42b5937d1a7",
     "commitName": "Calcula costo total de envio por cantidad",
     "commitTimestamp": 1789016641590,
     "testId": 34
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789016717009,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Agrega seleccion de tipo de cliente",
+    "commitTimestamp": 1789016805593,
+    "testId": 35
   }
 ]

@@ -646,16 +646,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2ffeb16188c5da1e2142d0e2a1fde42b5937d1a7",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T05:03:59.000Z",
       "message": "Calcula costo total de envio por cantidad",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/2ffeb16188c5da1e2142d0e2a1fde42b5937d1a7"
     },
     "stats": {
       "total": 10,
       "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T05:06:43.000Z",
+      "message": "Agrega seleccion de tipo de cliente",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
       "deletions": 0,
       "date": "2026-09-10"
     },

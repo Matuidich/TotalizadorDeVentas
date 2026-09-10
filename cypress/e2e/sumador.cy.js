@@ -36,6 +36,16 @@ describe("Totalizador de venta", () => {
     });
     cy.get("#categoria").select("Alimentos").should("have.value", "Alimentos");
   });
+  it("permite seleccionar tipo de cliente y usa Normal por defecto", () => {
+    cy.visit("/");
+    cy.get("#tipo-cliente").should("have.value", "Normal");
+    cy.get("#tipo-cliente option").then((opciones) => {
+      expect([...opciones].map((opcion) => opcion.value)).to.deep.equal([
+        "Normal", "Recurrente", "Antiguo Recurrente", "Especial",
+      ]);
+    });
+    cy.get("#tipo-cliente").select("Especial").should("have.value", "Especial");
+  });
   it("confirma la compra mostrando el desglose o el error de validacion", () => {
     cy.visit("/");
     cy.get("#cantidad").type("20");
