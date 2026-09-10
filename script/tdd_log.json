@@ -208,9 +208,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3d575615c553e3b6f9b63b5645d01294134eecc0",
     "commitName": "Implementar precio de compra despues del descuento",
     "commitTimestamp": 1789012332746,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1789012370294,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1789012387844,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar tasa de impuesto para UT",
+    "commitTimestamp": 1789012417032,
+    "testId": 9
   }
 ]

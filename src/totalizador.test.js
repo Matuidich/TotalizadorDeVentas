@@ -2,6 +2,7 @@ import calcularPrecioNeto, {
   obtenerPorcentajeDescuento,
   calcularDescuento,
   calcularPrecioConDescuento,
+  obtenerTasaImpuesto,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -46,5 +47,9 @@ describe("Totalizador de venta", () => {
   it("deberia restar el descuento al precio neto", () => {
     expect(calcularPrecioConDescuento(60)).toEqual(60);
     expect(calcularPrecioConDescuento(1000)).toEqual(970);
+  });
+
+  it("deberia obtener la tasa de impuesto de UT de 6.65 por ciento", () => {
+    expect(obtenerTasaImpuesto("UT")).toEqual(6.65);
   });
 });
