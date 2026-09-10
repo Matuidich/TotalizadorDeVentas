@@ -3,6 +3,7 @@ import calcularPrecioNeto, {
   calcularDescuento,
   calcularPrecioConDescuento,
   obtenerTasaImpuesto,
+  calcularImpuesto,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -67,5 +68,14 @@ describe("Totalizador de venta", () => {
 
   it("deberia obtener la tasa de impuesto de CA de 8.25 por ciento", () => {
     expect(obtenerTasaImpuesto("CA")).toEqual(8.25);
+  });
+
+  it("deberia calcular el impuesto sobre el precio despues del descuento", () => {
+    expect(calcularImpuesto(60, "UT")).toBeCloseTo(3.99);
+    expect(calcularImpuesto(60, "NV")).toBeCloseTo(4.8);
+    expect(calcularImpuesto(60, "TX")).toBeCloseTo(3.75);
+    expect(calcularImpuesto(60, "AL")).toBeCloseTo(2.4);
+    expect(calcularImpuesto(60, "CA")).toBeCloseTo(4.95);
+    expect(calcularImpuesto(1000, "TX")).toBeCloseTo(60.625, 5);
   });
 });

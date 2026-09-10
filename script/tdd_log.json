@@ -318,9 +318,31 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d9254b860d26e3dda5487f25c7c48e00025e1ccd",
     "commitName": "Implementar tasa de impuesto para CA",
     "commitTimestamp": 1789012743083,
     "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1789012786954,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789012811687,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar impuesto sobre el precio con descuento",
+    "commitTimestamp": 1789012853417,
+    "testId": 14
   }
 ]
