@@ -89,4 +89,8 @@ describe("Totalizador de venta", () => {
     expect(() => obtenerTasaImpuesto("ZZ")).toThrow("Codigo de estado invalido");
     expect(() => obtenerTasaImpuesto("toString")).toThrow("Codigo de estado invalido");
   });
+
+  it("deberia informar cuando la cantidad es negativa", () => {
+    expect(() => calcularPrecioNeto(-1, 3)).toThrow("La cantidad no puede ser negativa");
+  });
 });

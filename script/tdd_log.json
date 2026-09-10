@@ -384,9 +384,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dcc30f87c5d7949958c061b69758a6bd6e1d31e7",
     "commitName": "Validar codigo de estado invalido",
     "commitTimestamp": 1789013043767,
     "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789013078281,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789013098268,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Validar cantidad negativa",
+    "commitTimestamp": 1789013125106,
+    "testId": 17
   }
 ]
