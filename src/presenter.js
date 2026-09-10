@@ -14,6 +14,11 @@ const estado = document.querySelector("#estado");
 const resultado = document.querySelector("#resultado-div");
 const error = document.querySelector("#error-div");
 
+form.addEventListener("reset", () => {
+  resultado.replaceChildren();
+  error.textContent = "";
+});
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   resultado.replaceChildren();

@@ -74,4 +74,37 @@ describe("Totalizador de venta", () => {
       .and("contain", "Impuesto CA (8.25%): 5.78")
       .and("contain", "Precio total: 75.78");
   });
+  it("cancela la compra limpiando los datos, el resultado y los errores", () => {
+    cy.visit("/");
+    cy.get("#cantidad").type("20");
+    cy.get("#precio").type("3");
+    cy.get("#estado").select("TX");
+    cy.get("#confirmar-button").click();
+    cy.get("#resultado-div").should("contain", "Precio total: 63.75");
+    cy.get("#cancelar-button").should("contain", "Cancelar compra").click();
+    cy.get("#cantidad").should("have.value", "");
+    cy.get("#precio").should("have.value", "");
+    cy.get("#estado").should("have.value", "");
+    cy.get("#resultado-div").should("be.empty");
+    cy.get("#error-div").should("be.empty");
+
+    cy.get("#cantidad").type("20");
+    cy.get("#precio").type("abc");
+    cy.get("#estado").select("CA");
+    cy.get("#confirmar-button").click();
+    cy.get("#error-div").should("have.text", "El precio debe ser numerico");
+    cy.get("#cancelar-button").click();
+    cy.get("#cantidad").should("have.value", "");
+    cy.get("#precio").should("have.value", "");
+    cy.get("#estado").should("have.value", "");
+    cy.get("#resultado-div").should("be.empty");
+    cy.get("#error-div").should("be.empty");
+
+    cy.get("#cantidad").type("2");
+    cy.get("#precio").type("10");
+    cy.get("#estado").select("AL");
+    cy.get("#confirmar-button").click();
+    cy.get("#resultado-div").should("contain", "Precio total: 20.80");
+    cy.get("#error-div").should("be.empty");
+  });
 });

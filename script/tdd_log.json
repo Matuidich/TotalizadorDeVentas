@@ -634,9 +634,31 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "636ca00a76d093ca374659b2b39f8c9758ebd456",
     "commitName": "Confirma compras con desglose y mensajes de error mediante TDD",
     "commitTimestamp": 1789015437148,
     "testId": 27
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015482819,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015528590,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Cancela compras y limpia el formulario con TDD",
+    "commitTimestamp": 1789015669572,
+    "testId": 28
   }
 ]

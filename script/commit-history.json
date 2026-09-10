@@ -513,17 +513,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "636ca00a76d093ca374659b2b39f8c9758ebd456",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:43:55.000Z",
       "message": "Confirma compras con desglose y mensajes de error mediante TDD",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/636ca00a76d093ca374659b2b39f8c9758ebd456"
     },
     "stats": {
       "total": 93,
       "additions": 92,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:47:47.000Z",
+      "message": "Cancela compras y limpia el formulario con TDD",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 39,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 100,
