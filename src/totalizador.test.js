@@ -18,4 +18,9 @@ describe("Totalizador de venta", () => {
     expect(obtenerPorcentajeDescuento(3000)).toEqual(5);
     expect(obtenerPorcentajeDescuento(6999.99)).toEqual(5);
   });
+
+  it("deberia aplicar siete por ciento de descuento desde 7000", () => {
+    expect(obtenerPorcentajeDescuento(7000)).toEqual(7);
+    expect(obtenerPorcentajeDescuento(9999.99)).toEqual(7);
+  });
 });
