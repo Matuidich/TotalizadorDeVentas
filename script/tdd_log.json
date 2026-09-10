@@ -340,9 +340,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6c34505cbd11083be08f239456b2cb4698d2a8e6",
     "commitName": "Implementar impuesto sobre el precio con descuento",
     "commitTimestamp": 1789012853417,
     "testId": 14
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1789012890767,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1789012912443,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar precio total con descuento e impuesto",
+    "commitTimestamp": 1789012942367,
+    "testId": 15
   }
 ]

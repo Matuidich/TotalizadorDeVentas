@@ -44,4 +44,8 @@ export function calcularImpuesto(precioNeto, estado) {
   return calcularPrecioConDescuento(precioNeto) * obtenerTasaImpuesto(estado) / 100;
 }
 
+export function calcularPrecioTotal(precioNeto, estado) {
+  return calcularPrecioConDescuento(precioNeto) + calcularImpuesto(precioNeto, estado);
+}
+
 export default calcularPrecioNeto;

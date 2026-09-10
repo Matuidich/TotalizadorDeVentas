@@ -4,6 +4,7 @@ import calcularPrecioNeto, {
   calcularPrecioConDescuento,
   obtenerTasaImpuesto,
   calcularImpuesto,
+  calcularPrecioTotal,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -77,5 +78,10 @@ describe("Totalizador de venta", () => {
     expect(calcularImpuesto(60, "AL")).toBeCloseTo(2.4);
     expect(calcularImpuesto(60, "CA")).toBeCloseTo(4.95);
     expect(calcularImpuesto(1000, "TX")).toBeCloseTo(60.625, 5);
+  });
+
+  it("deberia sumar el impuesto al precio despues del descuento", () => {
+    expect(calcularPrecioTotal(calcularPrecioNeto(20, 3), "TX")).toEqual(63.75);
+    expect(calcularPrecioTotal(calcularPrecioNeto(20, 50), "TX")).toBeCloseTo(1030.625, 5);
   });
 });

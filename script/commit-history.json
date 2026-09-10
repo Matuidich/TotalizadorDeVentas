@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6c34505cbd11083be08f239456b2cb4698d2a8e6",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:00:50.000Z",
       "message": "Implementar impuesto sobre el precio con descuento",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/6c34505cbd11083be08f239456b2cb4698d2a8e6"
     },
     "stats": {
       "total": 14,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:02:20.000Z",
+      "message": "Implementar precio total con descuento e impuesto",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }
