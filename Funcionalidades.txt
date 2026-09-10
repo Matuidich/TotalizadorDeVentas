@@ -1,0 +1,41 @@
+FUNCIONALIDADES - TOTALIZADOR DE VENTA
+
+1. Como usuario quiero poder ingresar la cantidad de ítems de mi compra.
+
+2. Como usuario quiero poder ingresar el precio por ítem de mi compra.
+
+3. Como usuario quiero poder seleccionar el código de estado correspondiente a mi compra.
+
+4. Como usuario quiero poder ver el precio neto de mi compra.
+
+5. Como usuario quiero poder ver el descuento aplicado a mi compra.
+
+6. Como usuario quiero poder ver el porcentaje de descuento aplicado a mi compra.
+
+7. Como usuario quiero poder ver el precio de mi compra después de aplicar el descuento.
+
+8. Como usuario quiero poder ver el impuesto aplicado a mi compra.
+
+9. Como usuario quiero poder ver la tasa de impuesto correspondiente al estado seleccionado.
+
+10. Como usuario quiero poder ver el precio total de mi compra después de aplicar el descuento y el impuesto.
+
+11. Como usuario quiero poder seleccionar el estado desde una lista desplegable para evitar errores al introducir el código de estado.
+
+12. Como usuario quiero poder ver un mensaje de error cuando ingreso un código de estado inválido.
+
+13. Como usuario quiero poder ver un mensaje de error cuando ingreso una cantidad negativa.
+
+14. Como usuario quiero poder ver un mensaje de error cuando ingreso una cantidad igual a cero.
+
+15. Como usuario quiero poder ver un mensaje de error cuando ingreso un precio negativo.
+
+16. Como usuario quiero poder ver un mensaje de error cuando ingreso un precio igual a cero.
+
+17. Como usuario quiero poder ver un mensaje de error cuando ingreso información no numérica en la cantidad.
+
+18. Como usuario quiero poder ver un mensaje de error cuando ingreso información no numérica en el precio.
+
+19. Como usuario quiero poder confirmar mi compra.
+
+20. Como usuario quiero poder cancelar mi compra.
