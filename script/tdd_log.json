@@ -428,9 +428,31 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d22be7f879dad0266abcd896ef91210831df52f7",
     "commitName": "Validar cantidad igual a cero",
     "commitTimestamp": 1789013203225,
     "testId": 18
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1789013235763,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789013254932,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Validar precio negativo",
+    "commitTimestamp": 1789013280591,
+    "testId": 19
   }
 ]
