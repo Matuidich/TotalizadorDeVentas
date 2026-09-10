@@ -105,4 +105,10 @@ describe("Totalizador de venta", () => {
   it("deberia informar cuando el precio es cero", () => {
     expect(() => calcularPrecioNeto(20, 0)).toThrow("El precio debe ser mayor a cero");
   });
+
+  it("deberia informar cuando la cantidad no es numerica", () => {
+    for (const cantidad of ["abc", "20abc", "", " ", NaN, Infinity]) {
+      expect(() => calcularPrecioNeto(cantidad, 3)).toThrow("La cantidad debe ser numerica");
+    }
+  });
 });
