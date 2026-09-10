@@ -296,9 +296,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fc08e05e4db6cf5d42978b41abd4cec5d5418a1e",
     "commitName": "Implementar tasa de impuesto para AL",
     "commitTimestamp": 1789012658670,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1789012701532,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789012717190,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar tasa de impuesto para CA",
+    "commitTimestamp": 1789012743083,
+    "testId": 13
   }
 ]
