@@ -551,17 +551,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "233095c21688de7735ef4ef89a8e02eccf5017fe",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:54:40.000Z",
       "message": "Selecciona California como estado predeterminado",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/233095c21688de7735ef4ef89a8e02eccf5017fe"
     },
     "stats": {
       "total": 14,
       "additions": 6,
       "deletions": 8,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:57:22.000Z",
+      "message": "Agrega seleccion de categoria con Varios por defecto",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 100,

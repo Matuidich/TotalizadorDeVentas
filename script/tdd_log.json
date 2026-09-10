@@ -670,9 +670,23 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "233095c21688de7735ef4ef89a8e02eccf5017fe",
     "commitName": "Selecciona California como estado predeterminado",
     "commitTimestamp": 1789016082277,
     "testId": 29
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789016155173,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Agrega seleccion de categoria con Varios por defecto",
+    "commitTimestamp": 1789016244582,
+    "testId": 30
   }
 ]
