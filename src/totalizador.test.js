@@ -60,4 +60,8 @@ describe("Totalizador de venta", () => {
   it("deberia obtener la tasa de impuesto de TX de 6.25 por ciento", () => {
     expect(obtenerTasaImpuesto("TX")).toEqual(6.25);
   });
+
+  it("deberia obtener la tasa de impuesto de AL de 4 por ciento", () => {
+    expect(obtenerTasaImpuesto("AL")).toEqual(4);
+  });
 });

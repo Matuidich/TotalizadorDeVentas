@@ -274,9 +274,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6cb03bc0ed6e3eb6b7d2f6c071bf6be3fe2b9dce",
     "commitName": "Implementar tasa de impuesto para TX",
     "commitTimestamp": 1789012573583,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789012611280,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789012628606,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar tasa de impuesto para AL",
+    "commitTimestamp": 1789012658670,
+    "testId": 12
   }
 ]

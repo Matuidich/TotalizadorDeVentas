@@ -34,6 +34,7 @@ export function obtenerTasaImpuesto(estado) {
     UT: 6.65,
     NV: 8,
     TX: 6.25,
+    AL: 4,
   };
   return tasas[estado];
 }
