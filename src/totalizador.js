@@ -25,4 +25,8 @@ export function calcularDescuento(precioNeto) {
   return precioNeto * obtenerPorcentajeDescuento(precioNeto) / 100;
 }
 
+export function calcularPrecioConDescuento(precioNeto) {
+  return precioNeto - calcularDescuento(precioNeto);
+}
+
 export default calcularPrecioNeto;

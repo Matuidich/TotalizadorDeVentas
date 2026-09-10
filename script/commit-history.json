@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5960f20a4d7679e8d926c0fc1aa2e4c9c3738b54",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T03:50:45.000Z",
       "message": "Implementar monto del descuento de la compra",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/5960f20a4d7679e8d926c0fc1aa2e4c9c3738b54"
     },
     "stats": {
       "total": 14,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T03:52:10.000Z",
+      "message": "Implementar precio de compra despues del descuento",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

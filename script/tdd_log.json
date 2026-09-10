@@ -186,9 +186,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5960f20a4d7679e8d926c0fc1aa2e4c9c3738b54",
     "commitName": "Implementar monto del descuento de la compra",
     "commitTimestamp": 1789012247691,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1789012289234,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1789012306532,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar precio de compra despues del descuento",
+    "commitTimestamp": 1789012332746,
+    "testId": 8
   }
 ]

@@ -1,6 +1,7 @@
 import calcularPrecioNeto, {
   obtenerPorcentajeDescuento,
   calcularDescuento,
+  calcularPrecioConDescuento,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -40,5 +41,10 @@ describe("Totalizador de venta", () => {
   it("deberia calcular el monto del descuento sobre el precio neto", () => {
     expect(calcularDescuento(60)).toEqual(0);
     expect(calcularDescuento(1000)).toEqual(30);
+  });
+
+  it("deberia restar el descuento al precio neto", () => {
+    expect(calcularPrecioConDescuento(60)).toEqual(60);
+    expect(calcularPrecioConDescuento(1000)).toEqual(970);
   });
 });
