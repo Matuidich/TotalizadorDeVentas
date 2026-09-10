@@ -546,9 +546,31 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ae059fb9c97cfddd6e28e372f5ee0d044b938411",
     "commitName": "Permite ingresar cantidad en el totalizador con TDD",
     "commitTimestamp": 1789014877623,
     "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789014910953,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789014962126,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Permite ingresar precio decimal con TDD",
+    "commitTimestamp": 1789015055998,
+    "testId": 24
   }
 ]

@@ -437,17 +437,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ae059fb9c97cfddd6e28e372f5ee0d044b938411",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:34:35.000Z",
       "message": "Permite ingresar cantidad en el totalizador con TDD",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/ae059fb9c97cfddd6e28e372f5ee0d044b938411"
     },
     "stats": {
       "total": 43,
       "additions": 12,
       "deletions": 31,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:37:34.000Z",
+      "message": "Permite ingresar precio decimal con TDD",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 100,
