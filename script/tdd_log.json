@@ -164,9 +164,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4c0152463d1f1b0e8a483ffad628615db6ce611b",
     "commitName": "Implementar descuento del 15 por ciento desde 30000",
     "commitTimestamp": 1789012157848,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789012203941,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789012222766,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar monto del descuento de la compra",
+    "commitTimestamp": 1789012247691,
+    "testId": 7
   }
 ]
