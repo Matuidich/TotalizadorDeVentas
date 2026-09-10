@@ -494,17 +494,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3e80c5cc4dbae7717a464060d38fceccf0011efc",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:41:17.000Z",
       "message": "Completa lista desplegable de cinco estados con TDD",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/3e80c5cc4dbae7717a464060d38fceccf0011efc"
     },
     "stats": {
       "total": 16,
       "additions": 16,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:43:55.000Z",
+      "message": "Confirma compras con desglose y mensajes de error mediante TDD",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 93,
+      "additions": 92,
+      "deletions": 1,
       "date": "2026-09-10"
     },
     "coverage": 100,

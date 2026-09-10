@@ -612,9 +612,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3e80c5cc4dbae7717a464060d38fceccf0011efc",
     "commitName": "Completa lista desplegable de cinco estados con TDD",
     "commitTimestamp": 1789015279382,
     "testId": 26
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015334587,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015386604,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Confirma compras con desglose y mensajes de error mediante TDD",
+    "commitTimestamp": 1789015437148,
+    "testId": 27
   }
 ]
