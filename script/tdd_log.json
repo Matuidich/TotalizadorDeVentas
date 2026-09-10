@@ -76,9 +76,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6010596be9e029d010954085ee2393a40d910ef6",
     "commitName": "Implementar descuento del 3 por ciento desde 1000",
     "commitTimestamp": 1789011826201,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1789011865961,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1789011881749,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar descuento del 5 por ciento desde 3000",
+    "commitTimestamp": 1789011911052,
+    "testId": 3
   }
 ]
