@@ -8,6 +8,7 @@ import calcularPrecioNeto, {
   obtenerAjusteDescuentoCategoria,
   obtenerAjusteImpuestoCategoria,
   calcularCostoEnvioPorUnidad,
+  calcularCostoEnvioTotal,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -147,5 +148,10 @@ describe("Totalizador de venta", () => {
     expect(calcularCostoEnvioPorUnidad(201)).toEqual(9);
     expect(() => calcularCostoEnvioPorUnidad(-1)).toThrow("El peso volumetrico no puede ser negativo");
     expect(() => calcularCostoEnvioPorUnidad("abc")).toThrow("El peso volumetrico debe ser numerico");
+  });
+
+  it("deberia calcular el costo total de envio multiplicando por la cantidad", () => {
+    expect(calcularCostoEnvioTotal(20, 11)).toEqual(70);
+    expect(calcularCostoEnvioTotal(3, 201)).toEqual(27);
   });
 });

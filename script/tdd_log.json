@@ -750,9 +750,31 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eddd0ac183575cd2a21daecc21d44174240b6994",
     "commitName": "Calcula envio por peso volumetrico y valida datos",
     "commitTimestamp": 1789016558092,
     "testId": 33
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789016586746,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789016600151,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Calcula costo total de envio por cantidad",
+    "commitTimestamp": 1789016641590,
+    "testId": 34
   }
 ]

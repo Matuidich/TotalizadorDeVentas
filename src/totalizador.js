@@ -94,4 +94,8 @@ export function calcularCostoEnvioPorUnidad(peso) {
   return 9;
 }
 
+export function calcularCostoEnvioTotal(cantidad, peso) {
+  return Number(cantidad) * calcularCostoEnvioPorUnidad(peso);
+}
+
 export default calcularPrecioNeto;

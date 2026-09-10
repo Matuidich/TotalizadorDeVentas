@@ -627,12 +627,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eddd0ac183575cd2a21daecc21d44174240b6994",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T05:02:36.000Z",
       "message": "Calcula envio por peso volumetrico y valida datos",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/eddd0ac183575cd2a21daecc21d44174240b6994"
     },
     "stats": {
       "total": 33,
@@ -642,6 +642,25 @@
     },
     "coverage": 100,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T05:03:59.000Z",
+      "message": "Calcula costo total de envio por cantidad",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }
