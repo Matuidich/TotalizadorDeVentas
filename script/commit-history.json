@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b03e43a1a0c10e927f8e6b0ac1dd52b33b14a2a0",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T03:53:35.000Z",
       "message": "Implementar tasa de impuesto para UT",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/b03e43a1a0c10e927f8e6b0ac1dd52b33b14a2a0"
     },
     "stats": {
       "total": 12,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T03:54:53.000Z",
+      "message": "Implementar tasa de impuesto para NV",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

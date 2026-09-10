@@ -32,6 +32,7 @@ export function calcularPrecioConDescuento(precioNeto) {
 export function obtenerTasaImpuesto(estado) {
   const tasas = {
     UT: 6.65,
+    NV: 8,
   };
   return tasas[estado];
 }

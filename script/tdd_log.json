@@ -230,9 +230,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b03e43a1a0c10e927f8e6b0ac1dd52b33b14a2a0",
     "commitName": "Implementar tasa de impuesto para UT",
     "commitTimestamp": 1789012417032,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789012450476,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789012469036,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Implementar tasa de impuesto para NV",
+    "commitTimestamp": 1789012495436,
+    "testId": 10
   }
 ]

@@ -52,4 +52,8 @@ describe("Totalizador de venta", () => {
   it("deberia obtener la tasa de impuesto de UT de 6.65 por ciento", () => {
     expect(obtenerTasaImpuesto("UT")).toEqual(6.65);
   });
+
+  it("deberia obtener la tasa de impuesto de NV de 8 por ciento", () => {
+    expect(obtenerTasaImpuesto("NV")).toEqual(8);
+  });
 });
