@@ -568,9 +568,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "08c82e9b84c403811be35d2337ab15f9b19c5e24",
     "commitName": "Permite ingresar precio decimal con TDD",
     "commitTimestamp": 1789015055998,
     "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015093226,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789015126639,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Permite seleccionar estado de compra con TDD",
+    "commitTimestamp": 1789015167074,
+    "testId": 25
   }
 ]
