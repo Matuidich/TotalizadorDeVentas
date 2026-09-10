@@ -684,9 +684,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6fc12afc596705b70974ee25920ae6809579cb59",
     "commitName": "Agrega seleccion de categoria con Varios por defecto",
     "commitTimestamp": 1789016244582,
     "testId": 30
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1789016272937,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789016285803,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Agrega descuento adicional para Alimentos",
+    "commitTimestamp": 1789016309986,
+    "testId": 31
   }
 ]

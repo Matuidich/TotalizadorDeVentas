@@ -5,6 +5,7 @@ import calcularPrecioNeto, {
   obtenerTasaImpuesto,
   calcularImpuesto,
   calcularPrecioTotal,
+  obtenerAjusteDescuentoCategoria,
 } from "./totalizador.js";
 
 describe("Totalizador de venta", () => {
@@ -116,5 +117,10 @@ describe("Totalizador de venta", () => {
     for (const precio of ["abc", "3abc", "", " ", NaN, Infinity]) {
       expect(() => calcularPrecioNeto(20, precio)).toThrow("El precio debe ser numerico");
     }
+  });
+
+  it("deberia aplicar dos por ciento adicional de descuento a Alimentos", () => {
+    expect(obtenerAjusteDescuentoCategoria("Alimentos")).toEqual(2);
+    expect(obtenerAjusteDescuentoCategoria("Varios")).toEqual(0);
   });
 });

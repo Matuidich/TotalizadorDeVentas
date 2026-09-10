@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6fc12afc596705b70974ee25920ae6809579cb59",
     "author": "matuidich",
     "commit": {
       "date": "2026-09-10T04:57:22.000Z",
       "message": "Agrega seleccion de categoria con Varios por defecto",
-      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/6fc12afc596705b70974ee25920ae6809579cb59"
     },
     "stats": {
       "total": 16,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "matuidich",
+    "commit": {
+      "date": "2026-09-10T04:58:28.000Z",
+      "message": "Agrega descuento adicional para Alimentos",
+      "url": "https://github.com/Matuidich/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

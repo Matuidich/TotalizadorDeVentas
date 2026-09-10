@@ -69,4 +69,8 @@ export function calcularPrecioTotal(precioNeto, estado) {
   return calcularPrecioConDescuento(precioNeto) + calcularImpuesto(precioNeto, estado);
 }
 
+export function obtenerAjusteDescuentoCategoria(categoria) {
+  return categoria === "Alimentos" ? 2 : 0;
+}
+
 export default calcularPrecioNeto;
